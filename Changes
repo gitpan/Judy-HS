@@ -1,5 +1,9 @@
 Revision history for Judy::HS
 
+0.03 - Thu Dec 18 01:42:20 2008
+	Incompatible API again
+	Added Duplicates function for sugar
+
 0.02 - Thu Dec 18 00:05:27 2008
 	Utterly incompatible API change but now useful
 	Passes all tests
