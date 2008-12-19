@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:               Judy-HS
-version:            0.03
-abstract:           Library for creating and accessing a dynamic array, using an array-of-bytes of Length as an Index and a word as a Value. 
+version:            0.04
+abstract:           Library for creating and accessing a dynamic array, using an array-of-bytes as an Key and a word as a Value. 
 author:
     - Joshua ben Jore <jjore@cpan.org>
 license:            perl
@@ -9,6 +9,7 @@ distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
 requires:
+    PeekPoke:       0
     Sub::Exporter:  0
     Test::More:     0
 no_index:
