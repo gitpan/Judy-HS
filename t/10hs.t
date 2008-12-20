@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 use Test::More tests => 24;
-use Judy::SL qw( Set Delete Get Free );
+use Judy::HS qw( Set Delete Get Free );
 use Judy::Mem qw( PeekU );
 
 {

@@ -1,7 +1,18 @@
 Revision history for Judy::HS
 
-0.04 - Fri Dec 19 00:35:34 2008
-	...
+0.05 - Fri Dec 19 00:35:34 2008
+	Added Judy::Mem
+        Added t/20sl.t
+        Renamed t/10basic.t to t/10hs.t
+
+        Removed PeekPoke dependency. Re-implemented in Judy::Mem.
+        Stop using sv_2pvbyte, use SvPVbyte instead.
+        Using ppport.h at its own recommendation. Possibly incompatible with 5.6.1. See comment in HS.xs
+
+        Changed C comment syntax from // to /**/
+        Fixed README, now it autogenerates from README.pod
+        Git ignores Judy-*
+        Cleaned MANIFEST
 
 0.04 - Fri Dec 20 12:02:00 2008
         Added Judy::SL
@@ -20,5 +31,3 @@ Revision history for Judy::HS
 0.01 - Wed Dec 17 13:31:03 2008
 	Initial upload.
 	Provided "raw" HS macros, some tests failing
-
-	.
