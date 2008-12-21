@@ -1,4 +1,4 @@
-package Judy::SL;
+package Judy::L;
 
 use strict;
 use warnings;
@@ -8,7 +8,9 @@ use Judy::HS ();
 use Sub::Exporter -setup => {
     exports => [qw[
         Set Delete Get Free
-        First Next Last Prev
+        First      Next      Last      Prev
+        FirstEmpty NextEmpty LastEmpty PrevEmpty
+        MemUsed Count Nth
     ]],
 };
 
